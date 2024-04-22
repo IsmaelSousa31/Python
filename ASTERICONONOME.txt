@@ -1,0 +1,6 @@
+
+Esse código está criando uma versão ofuscada do nome "Ismael Sousa", adicionando um asterisco (*) antes de cada letra e ao final. O resultado seria algo como:
+
+*I*s*m*a*e*l* *S*o*u*s*a*
+
+É uma maneira interessante de ofuscar o texto adicionando caracteres especiais entre cada caractere.
