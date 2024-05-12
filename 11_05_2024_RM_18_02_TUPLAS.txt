@@ -1,0 +1,12 @@
+**Análise de Dados de Estudantes:**
+
+**Objetivo:**
+Este programa tem como objetivo calcular a média de idade dos estudantes e a média de suas notas, com base em informações fornecidas em tuplas.
+
+**Como funciona:**
+1. O programa recebe como entrada três tuplas contendo informações sobre os estudantes: nome, idade e média de notas.
+2. Em seguida, o programa itera sobre as tuplas, somando as idades e as notas de todos os estudantes.
+3. Após calcular a soma das idades e das notas, o programa calcula as médias, dividindo essas somas pelo número total de estudantes.
+4. Por fim, o programa imprime as médias de idade e de notas dos estudantes.
+
+Este programa é útil para análise de dados sobre estudantes, fornecendo métricas importantes, como média de idade e média de desempenho acadêmico, que podem ajudar na avaliação do desempenho e na identificação de tendências.

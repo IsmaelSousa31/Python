@@ -1,0 +1,13 @@
+**Calculadora de Despesas Familiares:**
+
+**Objetivo:**
+Este programa tem como objetivo calcular o total dos gastos mensais de uma família com base nos valores fornecidos para diferentes categorias de despesas.
+
+**Como funciona:**
+1. O programa recebe os gastos mensais da família, organizados em tuplas contendo o nome do item e o valor gasto. 
+2. Os gastos são armazenados em duas tuplas separadas: uma para os nomes dos itens (`gastosn`) e outra para os valores gastos (`gastosint`).
+3. Utilizando um loop `for`, o programa percorre os elementos das tuplas e imprime na tela o nome de cada item junto com seu valor correspondente.
+4. Durante o processo de impressão, os valores individuais são somados para calcular o total dos gastos mensais da família.
+5. Ao final, o programa exibe o total dos gastos familiares.
+
+Este programa é útil para famílias que desejam controlar seus gastos mensais e ter uma visão geral das despesas em diferentes categorias. Ele fornece uma maneira rápida e eficiente de calcular o total dos gastos, facilitando o planejamento financeiro e a tomada de decisões sobre orçamento familiar.
