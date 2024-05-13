@@ -1,0 +1,10 @@
+Soma de Elementos de Matrizes - README
+
+Descrição:
+Este programa em Python foi desenvolvido para calcular a soma dos elementos de duas matrizes. As matrizes são representadas como listas de listas e consistem em números inteiros.
+
+Funcionalidades:
+
+Calcula a soma dos elementos correspondentes das duas matrizes.
+Imprime cada soma individualmente.
+Imprime a soma total de todos os elementos das matrizes.
