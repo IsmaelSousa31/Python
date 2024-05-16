@@ -1,0 +1,12 @@
+Identificação de Vogais:
+
+Este programa em Python verifica se uma letra digitada pelo usuário é uma vogal ou uma consoante. Se a letra estiver entre as vogais 'a', 'e', 'i', 'o', 'u' (minúsculas ou maiúsculas), o programa imprime que é uma vogal; caso contrário, imprime que é uma consoante.
+
+Como Funciona:
+
+1. O programa solicita que o usuário digite uma letra.
+2. Verifica se a letra digitada está presente na lista de vogais ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U').
+3. Se a letra estiver na lista de vogais, imprime que é uma vogal.
+4. Se não estiver na lista de vogais, imprime que é uma consoante.
+
+Este programa é uma maneira simples de identificar vogais e consoantes em Python.
