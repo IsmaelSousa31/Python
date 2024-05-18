@@ -1,0 +1,10 @@
+Calculadora de Média Bimestral
+Descrição
+Este programa calcula a média bimestral de um estudante com base em suas quatro notas bimestrais. Ele solicita ao usuário que insira quatro notas, calcula a média dessas notas e imprime o resultado.
+
+Como Funciona
+O programa funciona da seguinte forma:
+
+Solicita ao usuário que insira quatro notas bimestrais.
+Calcula a média das quatro notas.
+Imprime a média bimestral com uma casa decimal.
