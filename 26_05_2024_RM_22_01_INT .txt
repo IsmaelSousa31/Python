@@ -1,0 +1,16 @@
+Comparador de Valores
+Descrição
+Este programa em Python solicita ao usuário que insira dois valores, compara esses valores e informa qual deles é maior. É uma aplicação simples que demonstra como obter entrada do usuário, converter tipos de dados e usar estruturas condicionais para fazer comparações.
+
+Funcionamento
+O programa solicita ao usuário que insira dois valores, um de cada vez.
+Esses valores são recebidos como strings e, em seguida, convertidos para inteiros.
+O programa compara os dois valores:
+Se o primeiro valor for maior que o segundo, uma mensagem informando que o primeiro valor é maior será exibida.
+Se o segundo valor for maior que o primeiro, uma mensagem informando que o segundo valor é maior será exibida.
+Se os valores forem iguais, o programa não exibe nenhuma mensagem, pois essa condição não está tratada no código.
+Como Usar
+Execute o programa em um ambiente Python.
+Quando solicitado, insira o primeiro valor e pressione Enter.
+Em seguida, insira o segundo valor e pressione Enter.
+O programa exibirá uma mensagem informando qual valor é maior.
