@@ -1,0 +1,34 @@
+Desempacotamento de Listas
+
+Descrição
+Este exemplo demonstra como realizar o desempacotamento de listas em Python, uma técnica que permite extrair elementos específicos de uma lista e armazená-los em variáveis individuais de forma conveniente.
+
+Explicação
+
+Passos:
+
+1. Definição da Lista:
+   - A lista `['Ola', 'Mundo', 1, 2, 3, 'Valores', 'Positivo']` é criada contendo uma mistura de strings e números.
+
+2. Impressão da Lista Original:
+   - A lista completa é impressa para mostrar seu conteúdo original.
+
+3. Desempacotamento da Lista:
+   - A lista é desempacotada em várias variáveis: `p`, `a`, `b`, `*_`, e `c`.
+   - `p` recebe o primeiro valor da lista (`'Ola'`).
+   - `a` recebe o segundo valor da lista (`'Mundo'`).
+   - `b` recebe o terceiro valor da lista (`1`).
+   - `*_` é uma variável especial que captura todos os valores restantes da lista, exceto o último.
+   - `c` recebe o último valor da lista (`'Positivo'`).
+
+4. Impressão dos Valores Desempacotados:
+   - Os valores armazenados em `p`, `a`, e `b` são impressos, mostrando os primeiros valores da lista.
+   - A variável `*_` é usada para imprimir os valores restantes que foram armazenados nela, exceto o último valor.
+   - Finalmente, a variável `c` contém o último valor da lista, mas não é impressa no código fornecido.
+
+Notas:
+- O desempacotamento é uma maneira eficiente de extrair elementos de uma lista sem precisar acessar cada índice individualmente.
+- A variável `*_` é frequentemente usada para capturar múltiplos valores em uma única variável durante o desempacotamento, especialmente quando os valores no início e no final da lista são de interesse específico.
+
+Conclusão:
+Este exemplo ilustra como o desempacotamento pode ser utilizado para manipular listas de maneira prática e legível em Python, facilitando a extração e manipulação de dados dentro das listas.
