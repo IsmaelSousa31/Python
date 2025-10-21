@@ -1,0 +1,11 @@
+📝 README - Exercício 3Título: Variáveis, Constantes e Identidade (Difícil)Tópicos-ChaveMutabilidade, Constantes (MAIÚSCULAS), Operadores de Identidade (is, is not), Operador de Comparação (==), Cópia e Referência.DescriçãoEste exercício é crucial para entender a diferença entre valor (==) e identidade de memória (is) em Python, especialmente com tipos de dados mutáveis (listas). O conceito de referência versus cópia é o foco principal.InstruçõesDefinir uma Constante (TAXA_FIXA).Criar uma lista (dados_originais).Criar uma referência para a lista original (dados_mutaveis = dados_originais).Criar uma cópia independente (dados_copiados = dados_originais[:]).Modificar o objeto através da referência.Imprimir os resultados das comparações is e == para observar as consequências da mutabilidade e do compartilhamento de memória.Solução EsperadaPythonTAXA_FIXA = 0.15
+dados_originais = [1, 2, 3]
+dados_mutaveis = dados_originais    # REFERÊNCIA (mesmo objeto)
+dados_copiados = dados_originais[:] # CÓPIA (novo objeto)
+dados_mutaveis[0] = 99              # Altera dados_originais
+
+# Resultados Esperados:
+# dados_originais == dados_mutaveis: True (O conteúdo é o mesmo: [99, 2, 3])
+# dados_originais is dados_mutaveis: True (São o mesmo objeto na memória)
+# dados_originais == dados_copiados: False (Conteúdo: [99, 2, 3] != [1, 2, 3])
+# dados_originais is not dados_copiados: True (São objetos diferentes na memória)

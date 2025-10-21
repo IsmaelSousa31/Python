@@ -1,0 +1,25 @@
+Entendido! Para cada um dos exercícios, vou gerar um arquivo README.md (formato Markdown) que descreve o exercício, os tópicos abordados e a solução esperada.Aqui estão os README dos Exercícios 1, 2 e 3 que você já codificou:📝 README - Exercício 1Título: Conversão de Tipos e E/S (Fácil)Tópicos-Chaveinput(), print(), str(), int(), float(), F-strings, Divisão Inteira (//)DescriçãoEste exercício foca na manipulação de entrada de dados (input()) e na conversão explícita de tipos, que é essencial para realizar operações matemáticas após receber dados do usuário. Ele também reforça o uso de F-strings e a função type() para inspecionar os tipos.InstruçõesSolicitar um número ao usuário (permitindo decimais).Converter o valor para float, int e str.Calcular a divisão inteira (//) do valor inteiro por 3.Imprimir os resultados e seus respectivos tipos de dados.Solução Esperada (Exemplo com entrada '10.5')Pythonvalor_original = float(input("Digite um número (ex: 45.67): "))
+valor_inteiro = int(valor_original)
+valor_texto = str(valor_original)
+quociente = valor_inteiro // 3
+
+# Saída esperada (com entrada 10.5):
+# Original (float): 10.5 | Tipo: <class 'float'>
+# Inteiro: 10 | Tipo: <class 'int'>
+# Texto: 10.5 | Tipo: <class 'str'>
+# Divisão Inteira por 3: 3 | Tipo: <class 'int'>
+📝 README - Exercício 2Título: Operadores de Atribuição e Associação (Médio)Tópicos-Chavelist, int, tuple, Operadores de Associação (in, not in), Operador de Atribuição Composto (+=), Soma Booleana.DescriçãoO objetivo é praticar a manipulação de coleções básicas (list, tuple) e os operadores usados para verificar a presença de elementos (in, not in). Também é testado o conceito de que valores booleanos (True/False) são avaliados como $1$/$0$ em contextos aritméticos.InstruçõesCriar uma lista de itens e uma variável moedas.Atualizar moedas usando +=.Usar in para verificar a presença de um item ('tocha').Usar not in para verificar a ausência de um item ('poção').Somar os dois resultados booleanos (o resultado deve ser 2).Solução EsperadaPythoninventario = ["corda", "tocha", "espada"]
+moedas = 50
+moedas += 25                          # Resultado: 75
+item_raro = ("Amuleto", 1)
+
+tem_tocha = "tocha" in inventario     # Resultado: True
+nao_tem_pocao = "poção" not in inventario # Resultado: True
+
+r = tem_tocha + nao_tem_pocao         # Cálculo: 1 + 1 = 2
+
+# Saída esperada:
+# Total de moedas 75
+# Tem tocha no inventário ? R = True
+# Tem poção no inventário ? R = True
+# Soma booleana R= 2
