@@ -1,0 +1,5 @@
+📝 Exercício 4: Operadores Lógicos e Precedência
+
+Tópicos-Chave,"input(), int(), Operadores de Comparação, Operadores Lógicos (and, or, not), Variáveis Booleanas."
+
+Com certeza. Aqui estão o título e a descrição de cada um dos três exercícios, sem incluir qualquer código ou solução.📝 Exercício 4: Operadores Lógicos e PrecedênciaTópicos-Chaveinput(), int(), Operadores de Comparação, Operadores Lógicos (and, or, not), Variáveis Booleanas.DescriçãoO exercício foca na construção de expressões booleanas a partir de entradas do usuário. O principal objetivo é praticar a combinação correta dos operadores lógicos (E, OU, NÃO) para determinar a elegibilidade para diferentes programas com base em múltiplos critérios (idade e número de compras).
