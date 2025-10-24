@@ -1,0 +1,3 @@
+📝 Analisador e Validador de Senhas
+Descrição
+Este projeto é um script em Python desenvolvido para analisar a complexidade de uma senha fornecida pelo usuário. Ele utiliza os fundamentos da linguagem, como laços de repetição (for), estruturas condicionais (if/elif/else), operadores lógicos (and), e métodos de manipulação de string (.isupper(), .isdigit(), etc.) para classificar a senha como FRACA, MODERADA ou FORTE. O programa determina a força da senha contando o comprimento total e o número de tipos distintos de caracteres presentes (maiúsculas, minúsculas, números e símbolos).
