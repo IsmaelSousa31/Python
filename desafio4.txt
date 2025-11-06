@@ -1,0 +1,29 @@
+Você tem o código e o enunciado! O seu código para identificar a categoria está correto e funcional.
+
+Vou gerar o README.md que documenta esta solução, incluindo o enunciado completo e as informações sobre as boas práticas utilizadas no seu código.
+
+📝 README: Identificador de Categoria de Gadget (TechDreams)
+Enunciado do Desafio
+No laboratório de inovação TechDreams, engenheiros trabalham dia e noite criando gadgets incríveis para facilitar o dia a dia das pessoas. No entanto, as equipes têm enfrentado um pequeno problema: identificar rapidamente a categoria de cada gadget recém-desenvolvido a partir de seu código. Para otimizar esse processo e incentivar boas práticas de programação, a líder de projetos, Zoe, propôs um desafio aos novos desenvolvedores. Eles devem criar uma função clara e bem definida que, ao receber como entrada um código de gadget, devolve a categoria correta. Isso garantirá um código fácil de entender, manter e reutilizar no futuro.
+
+Sua missão é implementar uma função que receba uma string representando o código de um gadget e retorne a categoria correspondente. Considere estas categorias: códigos que comecem com “T” são “tablet”, com “P” são “phone” e com “N” são “notebook”. Caso não pertença a nenhuma dessas categorias, retorne “unknown”. O objetivo é mostrar como funções facilitam o código limpo e reutilizável, elementos essenciais em ambientes de inovação constante.
+
+Entrada: Uma única string com o código do gadget (sem espaços). O código pode conter letras e/ou números. Saída: Uma única palavra indicando a categoria do gadget: “tablet”, “phone”, “notebook” ou “unknown”.
+
+Tópicos-Chave da Solução
+O código implementado demonstra o uso eficiente dos seguintes tópicos:
+
+Funções (Modularização): Uso de def e return para criar um bloco de código reutilizável e isolado.
+
+Acesso a String: Utilização do fatiamento (codigo[0]) para acessar o primeiro caractere da string (o elemento chave da identificação).
+
+Estruturas Condicionais: Uso da sequência if / elif / else para tomar decisões com base no valor do caractere.
+
+Operadores Lógicos: Uso do operador or para tratar as variações de caixa (maiúscula e minúscula) em uma única linha, como codigo[0] == "T" or codigo[0] == "t".
+
+Abordagem da Solução
+O código utiliza uma estrutura de decisão sequencial (if, elif) focada em verificar o primeiro caractere (codigo[0]) do código do gadget:
+
+Busca por Categoria: Cada bloco if/elif compara o primeiro caractere tanto com a versão maiúscula quanto com a minúscula ("T" ou "t").
+
+Caso Padrão (else): O bloco else é utilizado como uma cláusula de segurança, garantindo que se o caractere não corresponder a nenhuma das categorias válidas (T, P, N), a função retorne o valor padrão de unknown.

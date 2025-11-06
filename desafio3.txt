@@ -1,0 +1,31 @@
+Compreendido! Vou refazer o `README.md` incluindo o enunciado completo da questão e garantindo que o resultado seja apenas texto, sem tabelas ou formatação Markdown excessiva.
+
+---
+
+# README: Solução para o Robô Formatador de Mensagens
+
+## Enunciado do Desafio
+
+Na futurística cidade de Tecnos, a equipe do Laboratório de Inovação está desenvolvendo um robô que processa comandos de texto enviados por usuários. Para garantir clareza nos logs e troca de dados, o robô deve ser capaz de padronizar e aprimorar mensagens usando funções bem definidas, seguindo boas práticas de programação. Seu desafio é ajudar a equipe do laboratório a criar uma função que recebe uma mensagem enviada ao robô e retorna a mesma mensagem: (1) sem espaços extras no início ou fim, (2) com todas as letras minúsculas, e (3) com apenas um único espaço separando as palavras.
+
+Implemente esta função seguindo boas práticas (clareza, reutilização e modularização) e sem utilizar bibliotecas externas. Certifique-se de que a função trate corretamente mensagens já padronizadas ou compostas apenas de espaços.
+
+**Entrada:** Uma única linha contendo uma mensagem (string) enviada ao robô. A mensagem pode conter letras maiúsculas ou minúsculas, espaços múltiplos entre palavras ou ao redor, e pode estar vazia ou conter apenas espaços.
+
+**Saída:** Uma única linha contendo a mensagem processada: sem espaços extras no início/fim, todas as letras em minúsculo, e com apenas um espaço separando cada palavra. Se a entrada for vazia ou composta apenas por espaços, a saída deve ser uma linha vazia.
+
+## Tópicos-Chave da Solução
+
+Os seguintes tópicos de Python foram essenciais para resolver este desafio:
+
+1.  **Manipulação de String:** Uso dos métodos `.strip()`, `.split()`, `.join()`, e `.lower()`.
+2.  **Estruturas de Controle:** Uso da condicional `if` para tratar o caso de entradas vazias ou com apenas espaços.
+3.  **Funções:** Definição e uso de funções para modularizar o código.
+
+## Abordagem da Solução
+
+A função `formatar_mensagem` resolve o problema usando uma abordagem encadeada e eficiente:
+
+1.  **Validação Inicial:** O primeiro `if` utiliza `texto.strip() == ""` para verificar se a string, após a remoção de espaços nas bordas, é vazia. Isso atende ao requisito de retornar uma string vazia para entradas nulas ou compostas apenas por espaços.
+2.  **Limpeza e Separação:** O método `.strip()` é aplicado primeiro para remover os espaços das bordas. Em seguida, `.split()` (sem argumento) é usado para quebrar a string em uma lista, **eliminando automaticamente todos os espaços múltiplos** entre as palavras.
+3.  **Reconstrução e Caixa Baixa:** O método `.join()` é invocado com um único espaço (`" "`) como delimitador para juntar a lista de palavras limpas. Por fim, `.lower()` é aplicado para padronizar toda a mensagem em minúsculas, atendendo a todos os requisitos do desafio.
