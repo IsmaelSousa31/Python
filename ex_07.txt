@@ -1,0 +1,18 @@
+# ➕ Exercício 1: Soma Simples
+
+## 📝 Resumo
+
+Este exercício consiste em criar uma função básica em Python para realizar a operação de soma entre dois números fornecidos como argumentos. O foco é na definição de funções e na utilização da instrução `return`.
+
+## 📌 Enunciado da Questão
+
+**Objetivo:** Criar uma função que aceita dois números como argumentos e retorna a soma deles.
+
+**Instruções:**
+Crie uma função chamada `somar` (ou `calcular_soma`) que receba dois parâmetros (`a` e `b`) e **retorne** $a + b$.
+
+### Exemplo de Solução:
+
+```python
+def calcular_soma(a, b):
+    return a + b
