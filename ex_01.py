@@ -1,11 +1,13 @@
-valor_original = float(input("Digite um número: "))
+nome = "João"
+sobrenome = "Silva"
+idade = 30
+ano_de_nascimento = 2005
+maior_de_idade = idade >= 18
+altura_em_metros = 1.75
 
-valor_inteiro = int(valor_original)
-valor_texto = str(valor_original)
-
-quociente = valor_inteiro // 3 
-
-print(f"Valor original = {valor_original} tipo {type(valor_original)}")
-print(f"Valor inteiro = {valor_inteiro} tipo {type(valor_inteiro)}")
-print(f"Valor em texto = {valor_texto} tipo {type(valor_texto)}")
-print(f"Valor quociente = {quociente} tipo {type(quociente)}")
+print("Nome:", nome)
+print("Sobrenome:", sobrenome)
+print("Idade:", idade)
+print("Ano de Nascimento:", ano_de_nascimento)
+print("Maior de Idade ?", maior_de_idade)
+print("Altura em Metros:", altura_em_metros)

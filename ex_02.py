@@ -1,18 +1,8 @@
-inventario = ["corda", "tocha", "espada"]
+nome = "Lucas"
+altura = 1.75
+peso = 66
+imc = peso / (altura * altura)
 
-moedas = int(50)
-
-moedas += 25
-
-tupla = ("Amuleto", 1)
-
-tem_tocha = "tocha" in inventario
-
-nao_tem_pocao = "poção" not in inventario
-
-r = tem_tocha + nao_tem_pocao
-
-print(f"Total de moedas {moedas}")
-print(f"Tem tocha no inventário ? R = {tem_tocha}")
-print(f"Tem poção no inventário ? R = {nao_tem_pocao}")
-print(f"Soma booleana R= {r}")
+print(f"{nome} tem {altura} de altura")
+print(f"pesa {peso} KG e seu IMC é")
+print(f"{imc}")
