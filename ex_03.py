@@ -1,15 +1,9 @@
-TAXA_FIXA = 0.15
+primeiro_valor = input("Digite um valor: ")
+segundo_valor = input("Digite um valor: ")
 
-dados_originais = [1, 2, 3]
-
-dados_mutaveis = dados_originais
-
-dados_copiados = dados_originais[:]
-
-dados_mutaveis[0] = 99
-
-
-print(f"dados_originais == dados_mutaveis | Resposta = {dados_originais == dados_mutaveis }")
-print(f"dados_originais is dados_mutaveis | Resposta = {dados_originais is dados_mutaveis }")    
-print(f"dados_originais == dados_copiados | Resposta = {dados_originais == dados_copiados }")    
-print(f"dados_originais is not dados_copiados  | Resposta = {dados_originais is not dados_copiados  }")    
+if primeiro_valor > segundo_valor:
+    print(f"O primeiro valor = {primeiro_valor} é maior que o segundo valor = {segundo_valor}")
+elif segundo_valor > primeiro_valor:
+    print(f"O segundo valor = {segundo_valor} é maior que o primeiro valor = {primeiro_valor}")
+else:
+    print("Os dois valores são iguais. ")
